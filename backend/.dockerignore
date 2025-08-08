@@ -1,0 +1,13 @@
+.git
+node_modules
+npm-debug.log
+.env
+.env.local
+vendor
+bootstrap/cache/*
+storage/*
+!bootstrap/cache/.gitignore
+!storage/.gitignore
+!storage/app/.gitignore
+!storage/framework/.gitignore
+!storage/logs/.gitignore
