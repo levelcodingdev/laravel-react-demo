@@ -4,7 +4,7 @@ import { useMentor } from '../../api/queries/mentors/useMentor';
 import { MemoryRouter } from 'react-router';
 
 
-jest.mock('../../api/queries/mentors/useMentor');
+vi.mock('../../api/queries/mentors/useMentor');
 
 describe('MentorProfile', () => {
   test('shows skeleton when loading', () => {
